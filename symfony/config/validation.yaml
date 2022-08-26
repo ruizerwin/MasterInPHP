@@ -1,0 +1,11 @@
+App\Entity\Animal:
+    properties:
+        tipo:
+            - NotBlank: ~
+            - Regex: '/[a-zA-Z]+/'
+        color:
+            - NotBlank: ~
+            - Regex: '/[a-zA-Z]+/'
+        raza:
+            - NotBlank: ~
+            - Regex: '/[a-zA-Z]+/'
